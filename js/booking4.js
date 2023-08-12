@@ -1,0 +1,9 @@
+document.getElementById('cell1').innerHTML = localStorage.getItem('name');
+document.getElementById('cell2').innerHTML = localStorage.getItem('Date');
+document.getElementById('cell3').innerHTML = localStorage.getItem('Time1');
+document.getElementById('cell4').innerHTML = localStorage.getItem('Time2');
+document.getElementById('cell5').innerHTML = localStorage.getItem('timeDuration');
+document.getElementById('cell6').innerHTML = localStorage.getItem('mobile');
+document.getElementById('cell7').innerHTML = localStorage.getItem('email');
+document.getElementById('cell8').innerHTML = localStorage.getItem('gender');
+document.getElementById('cell9').innerHTML = localStorage.getItem('totPayable');

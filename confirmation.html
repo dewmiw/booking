@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--bootstrap css-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <!--alpine.js-->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"></script>
+  <!--flatpikr css-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="tickets.css">
+    <title>Confirmation</title>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">Buy Tickets</a>
+      </div>
+      <ul class="links">
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="payment.html">Payment</a></li>
+        <li  class="active"><a href="confirmation.html">Confirmation</a></li>
+      </ul>
+      <a href="tickets.html" class="action_btn">Get Started</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="payment.html">Payment</a></li>
+        <li><a href="confirmation.html">Confirmation</a></li>
+        <li> <a href="tickets.html" class="action_btn">Get Started</a></li>
+      </div>
+    </div>
+  </header>
+<div class="mainBody3">
+  <br>
+  <br>
+  <div class="confirmation">
+<h5>Thank you for your order. Your order has been confirmed with us. You can show
+   this confirmation at the entrance. Following is the summary
+    of your order.</h5>
+    <br>
+
+      <!--confirmation table table-->
+      <div class="col-sm-5">
+        <h5 id="summarycaption">Here is your selected information!</h5>
+        <table class="confirmationTable table-bordered">
+          <thead>
+            <th colspan="2" class="tHeading">Booking Information</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <td id="cell1"></td>
+            </tr>
+            <tr>
+              <th>Date</th>
+              <td id="cell2"></td>
+            </tr>
+            <tr>
+              <th>Starting time</th>
+              <td id="cell3"></td>
+            </tr>
+            <tr>
+              <th>Ending time</th>
+              <td id="cell4"></td>
+            </tr>
+            <tr>
+              <th>Duration</th>
+              <td id="cell5"></td>
+            </tr>
+            <tr>
+              <th>Mobile</th>
+              <td id="cell6"></td>
+            </tr>
+            <tr>
+              <th>email</th>
+              <td id="cell7"></td>
+            </tr>
+            <tr>
+              <th>Gender</th>
+              <td id="cell8"></td>
+            </tr>
+            <tr>
+              <th>Total Payable</th>
+              <td id="cell9">$10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+     <br>
+     <br>
+
+      <footer class="footer-distributed">
+
+        <div class="footer-left">
+    
+          <h3>Turtle<span>luvsl</span></h3>
+    
+          <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+            
+            <a href="#">Blog</a>
+          
+            <a href="#">Pricing</a>
+          
+            <a href="#">About</a>
+            
+            <a href="#">Faq</a>
+            
+            <a href="#">Contact</a>
+          </p>
+    
+          <p class="footer-company-name">TurtleLuvSL © 2023</p>
+        </div>
+    
+        <div class="footer-center">
+    
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Hikkaduwa Turtle Hatcheries</span> Hikkaduwa</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>077 608 7856</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="turtleluvsl@gmail.com">turtleluvsl@gmail.com</a></p>
+          </div>
+    
+        </div>
+    
+        <div class="footer-right">
+    
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Situated a few kilometres north of the main Hikkaduwa town lies the Sea Turtle
+                            Hatchery and Rescue Centre, a centre with the aim of conserving
+                            some of the endangered species of turtles in the world. It is just one of many turtle hatcheries
+                            in the southern coast of the island. Initially
+                            starting as a community project to help protect the biodiversity of the southern coast, it is
+                            now a fully-fledged hatchery and rescue centre with
+                            dedicated teams that work round the clock to study, care and protect several turtle species.
+          </p>
+    
+        </div>
+    
+      </footer>
+
+      <script src="js/booking4.js"></script>
+    </body>
+
+</html>
