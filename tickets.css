@@ -89,11 +89,6 @@ header {
 .action_btn:hover {
   background-color: #fff;
   color: orange;
-  scale: 1.05;
-}
-
-.action_btn:active {
-  scale: 0.95;
 }
 
 /*dropdown menu*/
