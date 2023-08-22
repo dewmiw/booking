@@ -20,7 +20,8 @@
 <body>
   <header>
     <div class="navbar">
-      <div class="logo">
+      <img class="logo1" src="images\1.png" alt="logo">
+      <div class="logo" style="color: orange;">
         <a href="#">Buy Tickets</a>
       </div>
       <ul class="links">
@@ -43,9 +44,14 @@
     </div>
   </header>
   <br>
+  <img class="headerimg" src="images\homepage3.jpg">
+  <!-- heading on header image-->
+  <div class="centered">
+      <h2 class="heading"></h2>
+  </div>
+  <br>
 
-  <marquee behavior="scroll" direction="left" class="marquee">Come visit our amazing sanctuary!</marquee>
-
+ 
   <div class="mainBody">
     <br>
     <br>
@@ -226,7 +232,7 @@ document.getElementsByName("date")[0].setAttribute('min', today);
 <div style="border-style: outset;">
 
     <div class="container mySelection">
-  <form id="formX" action="details.html">
+  <form id="formX" action="details.html" method="POST">
 	<div class="row">
 	
 	
@@ -302,7 +308,7 @@ document.getElementsByName("date")[0].setAttribute('min', today);
         </table>
 <br>
 </div>
-  <center> <a href="details.html">  <button type="submit" class="purchasebtn btn-primary" onclick="handleSubmit()" >Continue with purchase</button> </a>
+  <center>   <button type="submit" class="purchasebtn btn-primary" onclick="handleSubmit()" >Continue with purchase</button> 
    <br><br><br><br>
   
 </div>

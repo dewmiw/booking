@@ -1,23 +1,39 @@
 body {
 
-  color: #fff;
-  background-color: #000;
+  color:black;
+  background-color:  #edf4f5;
   place-items: center;
-  background-image: url(pics/david-troeger-9XzyEzPAHMI-unsplash.jpg);
+  /*: url(pics/david-troeger-9XzyEzPAHMI-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-
-
+  background-repeat: no-repeat;*/
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open sans', sans-serif;
+  font-family:verdana;
+  font-size: large;
 }
+
+.logo1 {
+  width: 200px;
+  height: auto;
+  margin-top: -12px;
+  margin-left: -60px;
+}
+.headerimg {
+  width: 100%;
+  height: 600px;
+}
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: #FFF;
+}
+
 
 li {
   list-style: none;
@@ -30,7 +46,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 1.2rem;
 }
 
@@ -66,7 +82,7 @@ header {
 }
 
 .navbar .toggle_btn {
-  color: #fff;
+  color: #000000;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
@@ -89,6 +105,11 @@ header {
 .action_btn:hover {
   background-color: #fff;
   color: orange;
+  scale: 1.05;
+}
+
+.action_btn:active {
+  scale: 0.95;
 }
 
 /*dropdown menu*/
@@ -165,27 +186,22 @@ header {
   padding: 0 15px;
   height: 65px;
   line-height: 65px;
-}
+}*/
 
 .logo {
-    font-size: 32px;
-    margin-left: 40%;
-    padding: 15px 50px;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase
+color:orange;
 }
 
 .logo a {
-    color: #5c9f24;
+    color: orange;
     text-decoration: none;
 }
 
 .logo a:hover {
-    color: #fff;
+    color: #0c0000;
 }
 
-.mainNav ul {
+/*.mainNav ul {
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -307,14 +323,7 @@ input:checked~.mainNav .navBar-toggle .bar:nth-child(3) {
   }
 }
 
-.marquee {
 
-  color: #fff;
-  font-size: 30px;
-  font-family: 'Times New Roman', Times, serif;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
 
 .img-fluid {
   max-width: 100%;
@@ -339,7 +348,7 @@ input:checked~.mainNav .navBar-toggle .bar:nth-child(3) {
   box-shadow: 1px 1px 5px #000000;
   transition: .2s;
   width: 300px;
-  font-size: small;
+  
 }
 
 #datepicker:hover {
@@ -351,8 +360,6 @@ input:checked~.mainNav .navBar-toggle .bar:nth-child(3) {
 
 .counter {
   color: #000000;
-  background-color: transparent;
-  backdrop-filter: blur(20px);
   padding: 10px;
   box-shadow: 1px 1px 5px #000000;
   border-radius: 5px;
@@ -387,15 +394,14 @@ input:checked~.mainNav .navBar-toggle .bar:nth-child(3) {
 }
 
 .table td {
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-  color: #f3eeee;
+  
+  color: #000000;
   padding: 10px 10px 10px 10px;
 }
 
 .table th {
-  background-color: #575757;
-  color: white;
+ 
+  color: #000000;
 }
 
 #imgcaption {
@@ -462,14 +468,10 @@ th {
 
 #tDescription {
   padding: 20px;
-  background-color: #575757;
+  background-color: rgb(97, 153, 183);
   color: #fff;
   border-radius: 8px;
   box-shadow: 2px 3px orange;
-}
-
-.subheading {
-  color: #fff;
 }
 
 .purchasebtn {
@@ -494,7 +496,7 @@ th {
 #form2 {
   width: 500px;
   border-radius: 25px;
-  height: 800px;
+  height: 850px;
   padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -503,7 +505,7 @@ th {
 }
 
 #form2 label {
-  color: #fff;
+  color: #000000;
   font-weight: bold;
   padding-bottom: 5px;
   padding-top: 15px;
@@ -528,7 +530,7 @@ th {
 }
 
 button#send {
-  background: rgb(18, 2, 2);
+  background: rgb(31, 161, 161);
 }
 
 #send:hover {
@@ -537,12 +539,15 @@ button#send {
 }
 
 button#reset {
-  background: rgb(11, 14, 11);
+  background: rgb(31, 161, 161);
 }
 
 #reset:hover {
   background: orange;
   color: #fff;
+}
+.btn{
+  background-color: orange;
 }
 
 .formContent {
@@ -570,7 +575,7 @@ button#reset {
   width: 350px;
   background-color: transparent;
   backdrop-filter: blur(20px);
-  height: 500px;
+  height: 550px;
 }
 
 .required {
@@ -582,6 +587,13 @@ button#reset {
 .confirmatiuon {
   text-align: justify;
   align-content: center;
+  color: #000000;
+  padding: 10px;
+  border: 8px black;
+  box-shadow: 1px 1px 5px #000000;
+  border-radius: 5px;
+  
+  
 }
 
 
